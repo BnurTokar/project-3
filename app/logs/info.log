@@ -1,0 +1,50 @@
+[2022-04-07 22:12:17,201] 192.168.128.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-07 23:15:11,771] 192.168.128.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-07 23:15:35,638] 192.168.128.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:02,557] 192.168.128.1 requested http://localhost/login
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:02,581] 192.168.128.1 requested http://localhost/login
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:12,562] 192.168.128.1 requested http://localhost/register
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:28,601] 192.168.128.1 requested http://localhost/register
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:28,612] 192.168.128.1 requested http://localhost/login
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:38,861] 192.168.128.1 requested http://localhost/login
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:38,889] 192.168.128.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-07 23:16:54,866] 192.168.128.1 requested http://localhost/profile
+INFO in __init__: this is the plain message
+[2022-04-07 23:17:01,878] 192.168.128.1 requested http://localhost/account
+INFO in __init__: this is the plain message
+[2022-04-07 23:17:12,051] 192.168.128.1 requested http://localhost/profile
+INFO in __init__: this is the plain message
+[2022-04-07 23:17:32,852] 192.168.128.1 requested http://localhost/profile
+INFO in __init__: this is the plain message
+[2022-04-07 23:17:32,872] 192.168.128.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-07 23:20:54,141] 192.168.128.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-07 23:20:56,028] 192.168.128.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-07 23:20:57,818] 192.168.128.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-07 23:20:59,158] 192.168.128.1 requested http://localhost/about
+INFO in __init__: this is the plain message
+[2022-04-07 23:20:59,989] 192.168.128.1 requested http://localhost/dashboard
+INFO in __init__: this is the plain message
+[2022-04-07 23:21:01,133] 192.168.128.1 requested http://localhost/welcome
+INFO in __init__: this is the plain message
+[2022-04-07 23:21:03,023] 192.168.128.1 requested http://localhost/profile
+INFO in __init__: this is the plain message
+[2022-04-07 23:21:07,721] 192.168.128.1 requested http://localhost/
+INFO in __init__: this is the plain message
+[2022-04-07 23:21:09,849] 192.168.128.1 requested http://localhost/about
+INFO in __init__: this is the plain message
+[2022-04-07 23:21:10,482] 192.168.128.1 requested http://localhost/welcome
+INFO in __init__: this is the plain message
