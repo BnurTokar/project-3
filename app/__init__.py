@@ -13,7 +13,7 @@ from flask_wtf.csrf import CSRFProtect
 
 from app.auth import auth
 from app.auth import auth
-from app.cli import create_database
+from app.cli import create_database, create_log_folder
 from app.context_processors import utility_text_processors
 from app.db import db
 from app.db.models import User
@@ -23,7 +23,7 @@ import logging
 from flask.logging import default_handler
 
 login_manager = flask_login.LoginManager()
-
+logging.root.level
 
 def page_not_found(e):
     return render_template("404.html"), 404
@@ -61,6 +61,7 @@ def create_app():
     db.init_app(app)
     # add command function to cli commands
     app.cli.add_command(create_database)
+    app.cli.add_command(create_log_folder)
 
     # Deactivate the default flask logger so that log messages don't get duplicated
     app.logger.removeHandler(default_handler)
@@ -74,19 +75,28 @@ def create_app():
         os.mkdir(logdir)
     # set name of the log file
     log_file = os.path.join(logdir, 'info.log')
+    log_file1 = os.path.join(logdir, 'debug.log')
 
     handler = logging.FileHandler(log_file)
+    handler1 = logging.FileHandler(log_file1)
     # Create a log file formatter object to create the entry in the log
     formatter = RequestFormatter(
         '[%(asctime)s] %(remote_addr)s requested %(url)s\n'
         '%(levelname)s in %(module)s: %(message)s'
     )
+    formatter1 = RequestFormatter(
+        '[%(asctime)s] %(remote_addr)s requested %(url)s\n'
+         '%(levelname)s : %(message)s'
+    )
     # set the formatter for the log entry
     handler.setFormatter(formatter)
+    handler1.setFormatter(formatter1)
     # Set the logging level of the file handler object so that it logs INFO and up
     handler.setLevel(logging.INFO)
+    handler1.setLevel(logging.DEBUG)
     # Add the handler for the log entry
     app.logger.addHandler(handler)
+    app.logger.addHandler(handler1)
 
     @app.before_request
     def start_timer():
@@ -132,11 +142,10 @@ def create_app():
         line = " ".join(parts)
         #this triggers a log entry to be created with whatever is in the line variable
         app.logger.info('this is the plain message')
-
+        app.logger.debug('This is the testing for debug log level function, app.logger.debug')
         return response
 
     return app
-
 
 @login_manager.user_loader
 def user_loader(user_id):
