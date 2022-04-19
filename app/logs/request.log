@@ -1,0 +1,18 @@
+[2022-04-19 16:29:19,111] [INFO] [13] 172.20.0.1 requested http://localhost/welcome 
+INFO in __init__: configure logging request
+[2022-04-19 16:29:19,124] [INFO] [13] 172.20.0.1 requested http://localhost/welcome 
+INFO in __init__: request before logging
+[2022-04-19 16:29:19,353] [INFO] [13] 172.20.0.1 requested http://localhost/welcome 
+INFO in __init__: request after logging
+[2022-04-19 16:29:19,805] [INFO] [10] 172.20.0.1 requested http://localhost/dashboard 
+INFO in __init__: configure logging request
+[2022-04-19 16:29:19,812] [INFO] [10] 172.20.0.1 requested http://localhost/dashboard 
+INFO in __init__: request before logging
+[2022-04-19 16:29:19,981] [INFO] [10] 172.20.0.1 requested http://localhost/dashboard 
+INFO in __init__: request after logging
+[2022-04-19 16:29:20,362] [INFO] [11] 172.20.0.1 requested http://localhost/welcome 
+INFO in __init__: configure logging request
+[2022-04-19 16:29:20,370] [INFO] [11] 172.20.0.1 requested http://localhost/welcome 
+INFO in __init__: request before logging
+[2022-04-19 16:29:20,518] [INFO] [11] 172.20.0.1 requested http://localhost/welcome 
+INFO in __init__: request after logging
