@@ -57,3 +57,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "beyza-auth-prod" #Must be unique in Heroku
           heroku_email: "bt268@njit.edu"
+          usedocker: true
