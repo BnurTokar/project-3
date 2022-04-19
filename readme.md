@@ -1,13 +1,14 @@
 # Project Setup
 
-[![Production Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/prod.yml)
+[![Production Workflow 1](https://github.com/BnurTokar/project-3/actions/workflows/prod.yml/badge.svg)](https://github.com/BnurTokar/project-3/actions/workflows/prod.yml)
 
-* [Production Deployment](https://kwilliam-prod.herokuapp.com/)
+* [Production Deployment](https://beyza-auth-prod.herokuapp.com)
 
 
-[![Development Workflow](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/dev.yml)
+[![Development Workflow 3.8](https://github.com/BnurTokar/project-3/actions/workflows/dev.yml/badge.svg)](https://github.com/BnurTokar/project-3/actions/workflows/dev.yml)
 
-* [Developmental Deployment](https://kwilliam-dev.herokuapp.com/)
+* [Developmental Deployment](https://beyza-auth-dev.herokuapp.com)
+
 
 ## Setting up CI/CD
 
